@@ -30,6 +30,8 @@ namespace Ginger.GeneralLib
     /// <summary>
     /// Interaction logic for AboutPage.xaml
     /// </summary>
+    /// icon editor online https://www.xiconeditor.com/
+
     public partial class AboutPage : Page
     {
         public AboutPage()
@@ -64,6 +66,7 @@ namespace Ginger.GeneralLib
             TBH.AddFormattedText("Assembly Details:", foregroundColor, true);
             TBH.AddLineBreak();
             TBH.AddFormattedText("Build Time: " + ApplicationInfo.ApplicationBuildTime, foregroundColor);
+            TBH.AddLinebrea
         }
 
         private void SetCreditInfo()

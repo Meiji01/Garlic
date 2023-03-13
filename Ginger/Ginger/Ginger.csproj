@@ -6,8 +6,9 @@
 	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>GingerIconNew.ico</ApplicationIcon>
+    <ApplicationIcon>GarlicIcon.ico</ApplicationIcon>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <PackageIcon></PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -615,6 +616,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="GarlicIcon.ico" />
     <Content Include="StaticDrivers\selenium-server-standalone.jar">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
